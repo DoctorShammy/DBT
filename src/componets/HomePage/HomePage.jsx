@@ -8,7 +8,6 @@ function HomePage(){
     <div className="homepage">
       <div className="header">
         <img src={Logo} alt="My App Logo" className="logo" />
-        <button className="loggain-button">Logga In</button>
         {/* <button className="search-button">Search</button> */}
         <hr/>
         <div>
