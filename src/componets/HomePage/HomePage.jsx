@@ -21,10 +21,17 @@ function HomePage(){
         <div>
           <p>Text här</p>
         </div>
+        <div classname="buttonbox">
         <div>
             <Link to= "/kryssblad" className="buttonOne">
               Kryssblad
               </Link>
+        </div>
+        <div>
+            <Link to= "/veckokort" className="buttonOne">
+              Veckokort
+              </Link>
+        </div>
         </div>
       </div>
       </div>

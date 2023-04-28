@@ -1,9 +1,9 @@
 import Reac from "react";
 
- function Veckokort(){
+ export function Veckokort(){
 
     return(
-        <></>
+        <><p>test</p></>
     )
 
  }
