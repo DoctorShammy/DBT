@@ -22,7 +22,9 @@ function HomePage(){
           <p>Text här</p>
         </div>
         <div>
-            <button className='btn'>Button</button>
+            <Link to= "/kryssblad" className="buttonOne">
+              Kryssblad
+              </Link>
         </div>
       </div>
       </div>
