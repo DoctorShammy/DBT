@@ -1,7 +1,10 @@
 .Grid {
     display: grid;
-    grid-template-columns: auto repeat(7, 1fr);
+    grid-template-columns: auto repeat(7, 1fr); /* 7 columns with 1 fractional unit */
     grid-template-rows: repeat(4, auto);
+    /* This property defines the number and size of rows in the grid. 
+    The first row is set to "auto", which means its height will be based on its content. 
+    The remaining 4 rows are set to 1 fractional unit in height. */
     gap: 8px;
     align-items: center;
   }

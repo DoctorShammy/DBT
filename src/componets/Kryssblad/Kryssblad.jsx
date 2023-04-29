@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Grid = styled.div`
 display: grid;
-grid-template-columns: auto repeat(7, 1fr);
+grid-template-columns: auto repeat(7, 1fr); 
 grid-template-rows: repeat(4, auto);
 gap: 8px;
 align-items: center;
@@ -31,17 +31,6 @@ const CheckboxWrapper = styled.div`
  const Checkbox =styled.input`
     margin: 0;
     `;
-
-// const Kryssblad = () => {
-    // const topics = ['Mindfulness', 'Relationsfärdigheter', 'Reglera Känslor', 'Stå ut i Kris', 'Validering'];
-    // const daysOfWeek = ['Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lördag', 'Söndag'];
-  
-    // const [checked, setChecked] = useState({});
-  
-    // const handleCheckboxChange = (event) => {
-    //   const { name, checked } = event.target;
-    //   setChecked((prevState) => ({ ...prevState, [name]: checked }));    
-    // };
     const Kryssblad = () => {
         const topics = [
           "Mindfulness",

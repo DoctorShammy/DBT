@@ -32,6 +32,11 @@ function HomePage(){
               Veckokort
               </Link>
         </div>
+        <div>
+            <Link to= "/test" className="buttonOne">
+              Test
+              </Link>
+        </div>
         </div>
       </div>
       </div>
