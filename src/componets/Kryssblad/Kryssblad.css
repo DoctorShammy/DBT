@@ -1,0 +1,35 @@
+.Grid {
+    display: grid;
+    grid-template-columns: auto repeat(7, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .Header {
+    /* grid-column: 2 / -1; */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .Topic {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 8px;
+  }
+  
+  .CheckboxWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Checkbox {
+    border-color: black;
+    margin: 0;
+  }
+
+  .daysOfWeek {
+    text-align: center;
+    font-weight: bold;
+  }
