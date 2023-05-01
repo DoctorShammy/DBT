@@ -4,7 +4,7 @@ import App from "./App";
 import {createRoot} from "react-dom/client"
 import Kryssblad from "./componets/Kryssblad/Kryssblad";
 import { Veckokort } from "./componets/Veckokort/Veckokort";
-import Test from "./componets/Kryssblad/Test";
+import Kalender from "./componets/Kalender/Kalender";
 
 const router = createBrowserRouter([
 {
@@ -28,8 +28,8 @@ path: "about",
     },
 
     {
-      path: "test",
-       element: <Test />
+      path: "kalender",
+       element: <Kalender />
       },
 ])
 createRoot(document.getElementById("root")).render(

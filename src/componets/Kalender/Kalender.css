@@ -1,0 +1,52 @@
+.kalender {
+    font-family: sans-serif;
+  }
+  
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .calendar-header button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .calendar-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+  }
+  
+  .calendar-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .calendar-day.disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  .calendar-day.today {
+    background-color: #f0f0f0;
+  }
+  
+  .calendar-day-number {
+    font-size: 18px;
+  }
+  

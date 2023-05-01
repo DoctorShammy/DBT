@@ -2,7 +2,6 @@ import React from 'react';
 import Logo from "/src/img/Logo.jpg"
 import "./HomePage.css"
 import {Route, Link  } from 'react-router-dom';
-import Kryssblad from '../Kryssblad/Kryssblad';
 
 function HomePage(){
 
@@ -33,8 +32,8 @@ function HomePage(){
               </Link>
         </div>
         <div>
-            <Link to= "/test" className="buttonOne">
-              Test
+            <Link to= "/kalender" className="buttonOne">
+              Kalender
               </Link>
         </div>
         </div>
