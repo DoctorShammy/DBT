@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { format, startOfWeek, addDays, startOfMonth, endOfMonth, endOfWeek, isSameMonth, isSameDay } from 'date-fns';
+import { format, startOfWeek, addDays, addMonths, startOfMonth, endOfMonth, endOfWeek, isSameMonth, isSameDay } from 'date-fns';
 import './Kalender.css';
 
 function Kalender() {
