@@ -1,4 +1,4 @@
-.homepage{
+/* .homepage{
     width: 100%;
 }
 
@@ -28,13 +28,108 @@
   p {
     margin-top: 20px;
   }
+  .buttonbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
 
   .buttonOne{
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: white;
     padding: 10px 20px;
     font-size: 1.2rem;
   }
+   */
+
+   @font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+   .homepage {
+    width: 100%;
+  }
   
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #00518f53;
+    color: white;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .loggain-button {
+    margin-top: 20px;
+    position: right;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  
+  hr {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
+  .buttonbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .buttonOne {
+    display: flex;
+    justify-content: center;
+    border: transparent;
+    background-color: transparent;
+    color: black;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+  }
+  
+  .buttonOne:hover {
+    background-color: #00518f53;
+    color: #00518f;
+  }
+
+  .body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px;
+    text-align: center; /* center the text */
+  }
+
+  .body h2 {
+    margin-bottom: 20px;
+  }
+  
+  .body p {
+    margin-bottom: 20px;
+    margin-left: 90px;
+    line-height: 1.5; /* add spacing between lines */
+  }
+  
+  .body h4 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
